@@ -10,7 +10,7 @@ namespace WebAPI.Models
     {
         [Key]
         public int Id { get; set; }
-        public string Name { get; set; }
-        public Department Department { get; set; }
+        public string EmployeeName { get; set; }
+        public virtual Department Department { get; set; }
     }
 }
